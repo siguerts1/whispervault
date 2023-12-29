@@ -4,6 +4,7 @@ package api
 import (
 	"net/http"
 	"os"
+	"mux"
 )
 
 // Authenticate is a middleware to authenticate requests
