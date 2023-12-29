@@ -5,6 +5,8 @@ import (
 	"net/http"
 	"os"
 	"mux"
+
+	"github.com/siguerts1/whispervault/database"
 )
 
 // Authenticate is a middleware to authenticate requests
